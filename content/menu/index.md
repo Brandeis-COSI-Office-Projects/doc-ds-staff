@@ -3,12 +3,10 @@ headless: true
 ---
 
 - [**The Project**]({{< relref "/docs/doc" >}})
-- [Table of Contents]({{< relref "/docs/doc/table-of-contents" >}})
-  - [With ToC]({{< relref "/docs/doc/table-of-contents/with-toc" >}})
-  - [Without ToC]({{< relref "/docs/doc/table-of-contents/without-toc" >}})
-- [Collapsed]({{< relref "/docs/doc/collapsed" >}})
-  - [3rd]({{< relref "/docs/doc/collapsed/3rd-level" >}})
-    - [4th]({{< relref "/docs/doc/collapsed/3rd-level/4th-level" >}})
+- [Process]({{< relref "/docs/doc/process" >}})
+  - [Collect Data]({{< relref "/docs/doc/process/collect-data" >}})
+  - [Clean Data]({{< relref "/docs/doc/process/clean-data" >}})
+  - [Visualize Data]({{< relref "/docs/doc/process/visualize-data" >}})
 <br />
 
 - **Shortcodes**
