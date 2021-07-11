@@ -1,6 +1,7 @@
-baseURL = "/doc-ds-staff/"
+# baseURL = "/doc-ds-staff/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Documentation of Alumni Data Analytics Project for Office Assistants"
+title = "Documentation of Alumni Data Analytics Project for Staff"
 theme = "book"
 
 

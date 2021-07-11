@@ -1,59 +1,39 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Quickstart"
+title: "The Project"
 ---
 
-# Quickstart
+# An Overview of the Project
 
-## Prerequisites
+## Blueprint
 
-- Python 3.9 or higher *(I think version < 3.9 should work fine, but I use 3.9, so it's advisable to keep the same Python version to avoid weird problems.)*
-- Git
-- Github/Github Desktop
-- Any text editor or IDE. I suggest using Visual Studio Code
+The project is about collecting and analyzing past alumni employment data. We have collected over a thousand lines of data which contains the following information:
 
-### Python Version
+    First Name
+    Last Name
+    Gender
+    Class Year
+    Majors
+    Preferred Email
+    All Past Job Titles
+    Years of Service for All Jobs
 
-```zsh
-python3 --version
-```
+An example would be:
 
-If you do not have python installed or the version is incorrect, follow the [python official documentation](https://www.python.org) to install/upgrade.
+    First Name: Chuyue
+    Last Name: Xiao
+    Gender: Female
+    Class Year: 2020
+    Majors: Computer Science
+    Preferred Email: -
+    All Past Job Titles: [Business Consulting Intern, Software Engineering and Data Analytics Intern ...]
+    Years of Service for All Jobs: [2 months, 4 months ...]
 
-### Git Version
+After collecting the raw data, we did all sorts of data cleaning to make it easier to read, analyze, and visualize. Steps include: 
 
-```zsh
-git --version 
-```
+- Merging job titles with lower occurrences to similar titles with higher occurrences. E.g., merging "Senior Software Engineer" to "Software Engineer"
+- Unifying "years of service" format. Before they are like "1 year 3 months", "3 mo", "2 yrs 1 mo"... and we unified all the time formats to be "xyxm", like "4y7m".
+- Sorting job titles based on occurrences. E.g., we have 1347 occurrences of Software Engineer and 296 occurrences of Software Engineering Intern.
 
-If you do not have git installed, please follow the [git official documentation](https://git-scm.com) to install Git. If you are using Windows, try to use [Git Bash](https://git-scm.com/downloads).
-
-### Github Desktop
-
-If you are fine using command line to control Github, great! If you are not comfortable using command line, please go ahead and download [Github Desktop](https://desktop.github.com).
-
-## Repository
-
-The repository should reside in the [Brandeis-COSI-Office-Projects](https://github.com/Brandeis-COSI-Office-Projects) organization. If you don't have access to it, please contact the Department Staff.
-
-The repository name is: `alumni-analytics`
-
-### Download
-
-1. Please clone the repository to your local computer using either command line or Github Desktop.
-2. Please download the `data` folder from the team. It should reside in a Google Drive folder. Please contract the Department Staff if you don't have access to it.
-3. Put the `data` folder inside the project directory.
-
-## Do a Quick Run
-
-Run
-
-```zsh
-python3 code/main.py
-```
-
-{{< hint info >}}
-**main.py**  
-Run `main.py` will do the data extraction, cleaning, and processing. You can see the whole process displayed in the terminal. Final results will be generated in the `data` folder.
-{{< /hint >}}
+We are currently at the visualizing stage where we are finding the best tool to do data visualization. Possible choices are Tableau, Power BI, etc.

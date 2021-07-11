@@ -2,7 +2,7 @@
 headless: true
 ---
 
-- [**Quickstart**]({{< relref "/docs/doc" >}})
+- [**The Project**]({{< relref "/docs/doc" >}})
 - [Table of Contents]({{< relref "/docs/doc/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/doc/table-of-contents/with-toc" >}})
   - [Without ToC]({{< relref "/docs/doc/table-of-contents/without-toc" >}})
