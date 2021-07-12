@@ -150,6 +150,12 @@ dict_tags = {
 ```
 Basically, job titles inside the square bracket `[` and `]` will be replaced by job titles inside the quotation marks `'` and `'`. E.g., `Senior Analyst` will be replaced by `Analyst`.
 
+{{< hint danger >}}
+**Be aware! The following webpage's code size is pretty large!**
+{{< /hint >}}
+
+[A complete version of the algorithm can be found here.](../../utilities/algorithm)
+
 ## Unifying Time Format
 
 Before, the **"years of service"** section is formatted as `"xyxm"`. E.g., `"1y3m"`, `"3y"`, `"8y1m"`. In order to ensure a faster data visualization process, I have unified the time to "years" unit. E.g., `1y3m` will be `1.25` years; `3y` will be `3` years; `8y1m` will be `8.08` years.

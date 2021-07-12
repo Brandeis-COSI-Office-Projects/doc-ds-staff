@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 2
 ---
 
 # The Whole Process Explained
