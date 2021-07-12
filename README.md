@@ -26,4 +26,4 @@ All the files are written in Markdown. I suggest taking look at [the Markdown Ch
 
 ## Contributors
 
-Tianqi Zhao @tianqizhao-louis
+Tianqi Zhao [@tianqizhao-louis](https://github.com/tianqizhao-louis)
